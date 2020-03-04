@@ -1,0 +1,89 @@
+// game properties
+#define WIDTH 800
+#define HEIGHT 600
+#define FPS 60
+
+
+// colors
+#define RED al_map_rgb(255, 0, 0)
+#define GREEN al_map_rgb(0, 255, 0)
+#define BLACK al_map_rgb(0, 0, 0)
+
+// fonts
+#define FONT_STYLE "font//font1.ttf"
+#define FONT_SIZE 72
+
+// speeds
+#define SHIP_SPEED 3
+#define BOMB_SPEED 1
+#define MINE_SPEED 1
+#define SUBMARINE_SPEED_1 1
+#define SUBMARINE_SPEED_2 3
+#define SUBMARINE_SPEED_3 3
+
+// frequency attack [s]
+#define SUBMARINE_FREQUENCY_ATTACK_1 4
+#define SUBMARINE_FREQUENCY_ATTACK_2 2
+#define SUBMARINE_FREQUENCY_ATTACK_3 1
+
+// images
+#define BACKGROUND_IMAGE_0 "graphic\\bg0.bmp"
+#define BACKGROUND_IMAGE_1 "graphic\\bg1.bmp"
+#define BACKGROUND_IMAGE_2 "graphic\\bg2.bmp"
+#define BACKGROUND_IMAGE_3 "graphic\\bg3.bmp"
+
+#define SEA_LEVEL 124
+
+#define SHIP_IMAGE "graphic\\ship.bmp"
+#define SHIP_IMAGE_WIDTH 146
+#define SHIP_IMAGE_HEIGHT 43
+
+#define BOMB_IMAGE "graphic\\bomb.bmp"
+#define BOMB_IMAGE_WIDTH 20
+#define BOMB_IMAGE_HEIGHT 20
+#define BOMB_IMAGE_SPLIT 20
+
+#define BOMB_EXPLOSION_IMAGE "graphic\\bomb_e.bmp"
+#define BOMB_EXPLOSION_IMAGE_WIDTH 40
+#define BOMB_EXPLOSION_IMAGE_HEIGHT 40
+#define BOMB_EXPLOSION_IMAGE_SPLIT 40
+
+#define SUBMARINE_IMAGE_1 "graphic\\sub1.bmp"
+#define SUBMARINE_IMAGE_1_WIDTH 150
+#define SUBMARINE_IMAGE_1_HEIGHT 40
+#define SUBMARINE_IMAGE_1_SPLIT 40
+
+#define SUBMARINE_EXPLOSION_IMAGE_1 "graphic\\sub1_e.bmp"
+#define SUBMARINE_EXPLOSION_IMAGE_1_WIDTH 150
+#define SUBMARINE_EXPLOSION_IMAGE_1_HEIGHT 80
+#define SUBMARINE_EXPLOSION_IMAGE_1_SPLIT 80
+
+#define SUBMARINE_IMAGE_2 "graphic\\sub2.bmp"
+#define SUBMARINE_IMAGE_2_WIDTH 150
+#define SUBMARINE_IMAGE_2_HEIGHT 40
+#define SUBMARINE_IMAGE_2_SPLIT 40
+
+#define SUBMARINE_EXPLOSION_IMAGE_2 "graphic\\sub2_e.bmp"
+#define SUBMARINE_EXPLOSION_IMAGE_2_WIDTH 150
+#define SUBMARINE_EXPLOSION_IMAGE_2_HEIGHT 80
+#define SUBMARINE_EXPLOSION_IMAGE_2_SPLIT 80
+
+#define SUBMARINE_IMAGE_3 "graphic\\sub3.bmp"
+#define SUBMARINE_IMAGE_3_WIDTH 150
+#define SUBMARINE_IMAGE_3_HEIGHT 40
+#define SUBMARINE_IMAGE_3_SPLIT 40
+
+#define SUBMARINE_EXPLOSION_IMAGE_3 "graphic\\sub3_e.bmp"
+#define SUBMARINE_EXPLOSION_IMAGE_3_WIDTH 150
+#define SUBMARINE_EXPLOSION_IMAGE_3_HEIGHT 80
+#define SUBMARINE_EXPLOSION_IMAGE_3_SPLIT 80
+
+#define MINE_IMAGE "graphic\\mine.bmp"
+#define MINE_IMAGE_WIDTH 15
+#define MINE_IMAGE_HEIGHT 15
+#define MINE_IMAGE_SPLIT 15
+
+#define MINE_EXPLOSION_IMAGE "graphic\\mine_e.bmp"
+#define MINE_EXPLOSION_IMAGE_WIDTH 30
+#define MINE_EXPLOSION_IMAGE_HEIGHT 30
+#define MINE_EXPLOSION_IMAGE_SPLIT 30
